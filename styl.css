@@ -1,0 +1,135 @@
+
+  
+  #navbarSupportedContent a{
+      color: gold;
+      font-weight: bolder;
+      padding-right: 20px;
+      }
+#navbarSupportedContent a:hover{
+  text-decoration: underline;
+   
+   font-weight: bolder;
+   color: white;
+   border-bottom:white 50px;
+    border-bottom: 4px solid white; 
+     padding-bottom: 0px;
+     margin:none; 
+}
+/* nav bode media query */
+#footer{
+      background-color:#061630;
+}
+
+#navb {
+color:white;
+background-color:#061630;
+
+}
+
+  @media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#navb ,#footer{
+  background-color:#061630;
+ 
+
+}
+}
+/* end of nav navmedia query */
+/* media query header */
+  #cardheader ,#we {
+      background-color:#061630;
+      font-family:arial;
+      transition:2s;
+      color: rgb(19, 18, 15);
+      
+}
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#cardheader,#we {
+  background-color:rgb(7, 7, 31);
+  font-family:Forte;
+  margin-top:12px;
+}
+}
+/* end of header */
+/* nav header */
+#DE{
+display:none;
+
+}
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#DE{
+  font-family:Forte;
+  /* visibility:visible; */
+  display:inline;
+  font-size:19px;
+
+}
+}
+/* end header */
+
+/*  dashboard*/
+#da,.BAC{
+background-color:#061630;
+color:gold;
+
+border-radius:12px;
+
+
+
+} 
+#da:hover{
+transition:1s;
+color:white;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#da{
+  background-color:blue;
+  font-family:Forte;
+  font-weight:bolder;
+
+
+}
+}
+
+
+
+
+/*  end dashboard*/
+
+
+#rt:hover{
+  transform: rotate(50deg);
+  transition:2s;
+} 
+
+/* ###End dashboard */
+
+/* 
+
+.jumbotron{
+  background-color:#061630;
+  color:gold;
+  text-transform:lowercase;
+  border-radius:12px;
+  
+  
+  
+  } 
+ */
+
+
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .type{
+   visibility:none;
+ }
+  
+  
+  }
